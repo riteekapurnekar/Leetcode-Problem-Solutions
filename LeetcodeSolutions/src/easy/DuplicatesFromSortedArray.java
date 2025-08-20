@@ -13,7 +13,7 @@ public class DuplicatesFromSortedArray {
 
         if (nums.length < 1) {
             return 0;
-        }
+        }   
 
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] != nums[k - 1]) {   //  checking for unique values
